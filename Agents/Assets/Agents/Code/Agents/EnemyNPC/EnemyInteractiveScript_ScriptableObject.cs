@@ -1,0 +1,19 @@
+using SotomaYorch.FiniteStateMachine.Agents;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+namespace SotomaYorch.FiniteStateMachine
+{
+    [CreateAssetMenu(menuName = "Finite State Machine/New Enemy Interactive Script")]
+    public class EnemyInteractiveScript_ScriptableObject : ScriptableObject
+    {
+        [Header("Base configuration")]
+        [SerializeField] public GameObject prefabOfTheEnemy;
+        [Header("Spawn transform")]
+        [SerializeField] public Vector3 positionToSpawn;
+        [SerializeField] public Vector3 rotationToSpawn;
+        [Header("Runtime Patrol Behaviour")]
+        [SerializeField] public PatrolScript[] patrolScript;
+    }
+}
