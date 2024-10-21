@@ -17,6 +17,5 @@ namespace SotomaYorch.FiniteStateMachine
                 fsm.ChangeState(nextState);
             }
         }
-
     }
 }

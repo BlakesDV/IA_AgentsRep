@@ -136,7 +136,7 @@ namespace SotomaYorch.FiniteStateMachine
 
         }
 
-        #endregion RotatingState
+         #endregion RotatingState
 
         #region WalkingState
 
