@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3a1731c991cdce44bed2f6cc66b7a59, type: 3}
   m_Name: BasicPatrol_EnemyScript
   m_EditorClassIdentifier: 
-  prefabOfTheEnemy: {fileID: 0}
+  prefabOfTheEnemy: {fileID: 3775132121667213172, guid: af48e12970ee4164e95fa7532c9ac477, type: 3}
   positionToSpawn: {x: 0, y: 0, z: 0}
   rotationToSpawn: {x: 0, y: 0, z: 0}
   patrolScript:

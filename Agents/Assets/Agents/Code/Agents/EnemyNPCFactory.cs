@@ -9,7 +9,7 @@ namespace SotomaYorch.FiniteStateMachine
     {
         #region Knobs
 
-        [SerializeField] EnemyInteractiveScript_ScriptableObject[] enemiesToProduce;
+        [SerializeField] public EnemyInteractiveScript_ScriptableObject[] enemiesToProduce;
 
         #endregion
 
@@ -30,6 +30,7 @@ namespace SotomaYorch.FiniteStateMachine
                 _goEnemyInstance.transform.parent = this.transform;
                 _goEnemyInstance.transform.localPosition = enemy.positionToSpawn;
                 _goEnemyInstance.transform.localRotation = Quaternion.Euler(enemy.rotationToSpawn);
+                _goEnemyInstance.GetComponent<EnemyNPC>().soPatrolScript = enemy;
 
                 _listOfTheEnemies.Add(_goEnemyInstance);
             }
