@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using SotomaYorch.FiniteStateMachine;
 using SotomaYorch.FiniteStateMachine.Agents;
+using TMPro;
 
 namespace SotomaYorch.AvoidDetection
 {
